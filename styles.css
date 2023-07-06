@@ -1,0 +1,184 @@
+ body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 0px;
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+}
+
+.logo {
+  width: 180px;
+  height: 30px;
+  align-self: center;
+}
+
+button {
+  padding: 18px 45px;
+  border-radius: 50px;
+  font-weight: 800;
+  border: none;
+  font-size: 15px;
+  background: white;
+}
+
+.shadow {
+  box-shadow: 0px 0px 5px 0px rgb(153, 152, 152);
+}
+
+.pink-bg {
+  background-color: #fe52c0;
+}
+
+
+.hoverstate:hover{
+opacity: 80%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  width: 90%;
+  margin: 20px 0px;
+}
+
+p {
+  font-size: large;
+  color: gray;
+}
+
+.hero-section {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: #edfbfe;
+  margin-bottom: 100px;
+}
+
+.hero {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 0px 30px 20px 50px;
+}
+
+.hero-image {
+  width: 5s0;
+}
+
+.hero-text {
+  width: 52%;
+  margin: 20px 50px 20px 0px;
+  padding: 10px 20px;
+}
+
+.hero-image img {
+  width: 650px;
+  padding-right: 30px;
+}
+
+
+.div-img{width: 400px;
+padding-right: 10px;}
+
+.card-text{
+    margin: 5% auto 5% 7%;
+    width: 43%;
+}
+.card-content{display: flex;
+  flex-wrap: wrap;
+padding: 50px;
+gap: 50px;
+font-size: 1.5rem;
+}
+
+h2{font-size: larger;}
+
+.card{
+  margin: 3% 6%;
+  border-radius: 20px ;
+  box-shadow: 0px 0px 10px 1px rgb(235, 234, 234);
+}
+
+.community{
+  width: 45%;
+  margin: 100px  auto 60px;
+  padding: 20px 0px 35px;
+  font-size: 1.4rem;
+  align-items: center;
+  box-shadow: 0px 0px 15px rgb(145, 143, 143);
+}
+
+
+.communiy-cta h2{
+margin: 40px 70px 40px 85px;
+}
+
+.communiy-cta>button{
+  margin-left: 25%;
+}
+
+.footers{
+  padding: 150px 50px 50px;
+  display: grid;
+  font-size: large;
+  flex-wrap: wrap;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+.sectionOF{
+  background-color: #00252e;
+  --index: 3
+}
+.sectionOF p{
+  color: rgba(196, 192, 192, 0.897);
+
+}
+
+.footer-attribute{
+  width: 80%;
+  
+}
+.navs{
+  margin-top: 50px;
+
+}
+
+.navs a{
+  margin: 5%;
+  display: block;
+  line-height: 2;
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+i{
+  padding-right: 15px;
+}
+.socials > i> img{
+width: 20px;
+background-color: white;
+padding: 5px;
+border-radius: 50px ;
+}
+
+.socials{
+  padding-top: 60px;
+}
+
+.socials img:hover{
+  background-color: #fe52c0;
+}
+
+a:hover{
+  color:#fe52c0 ;
+}
